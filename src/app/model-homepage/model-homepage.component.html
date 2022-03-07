@@ -1,0 +1,44 @@
+<html>
+	<head>	
+		<title>
+			Local Admin Dashboard
+		</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="model-homepage.component.css">
+	</head>
+	<body>
+		<div class="box1">
+			<div style="position : relative; left:10px; top: 0px;"><a routerLink="/admindashboard" style=" text-decoration: none;"> {{org}}</a></div>
+			<div style="position : absolute; left:1100px; top: 25px;" [matMenuTriggerFor]="menu"> LocalAdmin({{username}})</div>
+			<div style="position : absolute; left:1260px; top: 25px;">
+				<mat-menu #menu="matMenu">
+					<button mat-menu-item>
+					<!-- <mat-icon>dialpad</mat-icon> -->
+					<span>Settings</span>
+					</button>
+					<button mat-menu-item>
+					<!-- <mat-icon>voicemail</mat-icon> -->
+					<span>Profile</span>
+					</button>
+					<button mat-menu-item>
+					<!-- <mat-icon>notifications_off</mat-icon> -->
+					<span>Change Password</span>
+					</button>
+					<button mat-menu-item>
+						<!-- <mat-icon>notifications_off</mat-icon> -->
+						<span>Sign out</span>
+						</button>
+					</mat-menu>		  
+				</div>
+		</div>
+
+		<div class="box2">
+			<a routerLink="/MBSEBase" style=" text-decoration: none;"><div class="rectangleBox" style="position : relative; left:700px; top: 271px;">New MBSEBase Model</div></a> 
+			<a routerLink="/MBSEVarient" style=" text-decoration: none;"><div class="rectangleBox" style="position : absolute; left:300px; top: 150px;">New MBSEVarient Model</div></a>
+			<a routerLink="/MBSEModel" style=" text-decoration: none;"><div class="rectangleBox" style="position : absolute; left:750px; top: 150px;">New MBSE Model</div></a>
+			<a routerLink="/MBSEModelList" style=" text-decoration: none;"><div class="rectangleBox" style="position : absolute; left:300px; top: 350px;">Models List</div> </a>
+			<div style="position : absolute; left:1070px; top:575px;"><div class="blockchain">Data Stored in Local blockchain</div></div>
+			<div style="position : absolute; left:1200px; top:575px;"><div class="database">Data Stored in Local DB</div></div>
+        </div>
+	</body>	
+</html>

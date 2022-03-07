@@ -1,0 +1,44 @@
+<html>
+	<head>	
+		<title>
+			Local Admin Dashboard
+		</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="mbse-base.component.css">
+	</head>
+	<body>
+		<div class="box1">
+			<div style="position : relative; left:10px; top: 0px;"><a routerLink="/admindashboard" style=" text-decoration: none;"> {{org}}</a></div>
+			<div style="position : absolute; left:1200px; top: 25px;"> LocalAdmin({{username}})</div>
+		</div>
+		<div class="box2">
+			Create a Base Model
+			<div class="MBSELeftBox" style="position : relative; top: 10px;">
+					<form action="NewEmployee.html" action="GET">
+						Model Name<input type="text" style="width: 200px; margin-left:190px">
+						<br>
+						<br>
+						Model Description<input type="text" style="width: 200px; margin-left:275px">
+						<br>
+						<br>
+						Model Documents<input type="text" style="width: 200px; margin-left:275px">
+						<br>
+						<br>
+						Version<input type="text" style="width: 200px; margin-left:230px">
+						<br>
+						<br>
+						Sub-Version<input type="text" style="width: 200px; margin-left:200px">
+						<br>
+						<br>
+						<button type="submit" routerLink="" style="margin-left:400px">Submit</button>
+					</form>
+				</div>
+			<div class="ModelDocument" style="position : absolute; left:900px; top: 100px;">
+				Model Document
+			</div>
+			<div style="position : absolute; left:1070px; top:575px;"><div class="blockchain">Data Stored in Local blockchain</div></div>
+			<div style="position : absolute; left:1200px; top:575px;"><div class="database">Data Stored in Local DB</div></div>
+
+			</div>
+	</body>	
+</html>
