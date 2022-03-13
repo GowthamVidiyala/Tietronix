@@ -6,7 +6,7 @@
 	<body>
 		<div class="box1">
 			<div style="position : relative; left:10px; top: 0px;"><a routerLink="/admindashboard" style=" text-decoration: none;"> {{org}}</a></div>
-			<div style="position : absolute; left:1100px; top: 25px;" [matMenuTriggerFor]="menu"> LocalAdmin({{username}})</div>
+			<div class="manager" style="position : absolute; left:1180px; top: 25px;" [matMenuTriggerFor]="menu"> <mat-icon style="transform: scale(1.5); position:absolute; left:-30px">account_circle</mat-icon> Manager({{username}})</div>
 			<div style="position : absolute; left:1260px; top: 25px;">
 				<mat-menu #menu="matMenu">
 					<button mat-menu-item>

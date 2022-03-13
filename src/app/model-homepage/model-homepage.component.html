@@ -9,7 +9,7 @@
 	<body>
 		<div class="box1">
 			<div style="position : relative; left:10px; top: 0px;"><a routerLink="/admindashboard" style=" text-decoration: none;"> {{org}}</a></div>
-			<div style="position : absolute; left:1100px; top: 25px;" [matMenuTriggerFor]="menu"> LocalAdmin({{username}})</div>
+			<div class="manager" style="position : absolute; left:1180px; top: 25px;" [matMenuTriggerFor]="menu"> <mat-icon style="transform: scale(1.5); position:absolute; left:-30px">account_circle</mat-icon> Manager({{username}})</div>
 			<div style="position : absolute; left:1260px; top: 25px;">
 				<mat-menu #menu="matMenu">
 					<button mat-menu-item>
@@ -30,13 +30,13 @@
 						</button>
 					</mat-menu>		  
 				</div>
-		</div>
-
+		</div>	
 		<div class="box2">
-			<a routerLink="/MBSEBase" style=" text-decoration: none;"><div class="rectangleBox" style="position : relative; left:700px; top: 271px;">New MBSEBase Model</div></a> 
-			<a routerLink="/MBSEVarient" style=" text-decoration: none;"><div class="rectangleBox" style="position : absolute; left:300px; top: 150px;">New MBSEVarient Model</div></a>
-			<a routerLink="/MBSEModel" style=" text-decoration: none;"><div class="rectangleBox" style="position : absolute; left:750px; top: 150px;">New MBSE Model</div></a>
-			<a routerLink="/MBSEModelList" style=" text-decoration: none;"><div class="rectangleBox" style="position : absolute; left:300px; top: 350px;">Models List</div> </a>
+			<a routerLink="/MBSEBase" style=" text-decoration: none;"><div class="rectangleGreenBox greencolor" style="position : relative; left:100px; top: 79px;"><div style="left: 190px; position: absolute;"><img src="assets/img/blockchain.png" width="30" height="30" alt="blockchain"></div><br>New<br> MBSEBase Model</div></a> 
+			<a routerLink="/MBSEVarient" style=" text-decoration: none;"><div class="rectangleGreenBox greencolor" style="position : absolute; left:525px; top: 150px;"><div style="left: 190px; position: absolute;"><img src="assets/img/blockchain.png" width="30" height="30" alt="blockchain"></div><br>New<br> MBSEVarient Model</div></a>
+			<a routerLink="/MBSEModel" style=" text-decoration: none;"><div class="rectangleGreenBox greencolor" style="position : absolute; left:900px; top: 150px;"><div style="left: 190px; position: absolute;"><img src="assets/img/blockchain.png" width="30" height="30" alt="blockchain"></div><br><br>New MBSE Model</div></a>
+			<a routerLink="/MBSEModelList" style=" text-decoration: none;"><div class="rectangleGreenBox greencolor" style="position : absolute; left:350px; top: 350px;"><div style="left: 190px; position: absolute;"><img src="assets/img/blockchain.png" width="30" height="30" alt="blockchain"></div><br><br>Models List</div> </a>
+			<a routerLink="/MapModel" style=" text-decoration: none;"><div class="rectangleGreenBox greencolor" style="position : absolute; left:750px; top: 350px;"><div style="left: 190px; position: absolute;"><img src="assets/img/blockchain.png" width="30" height="30" alt="blockchain"></div><br>Add Model To<br>Organization </div> </a>
 			<div style="position : absolute; left:1070px; top:575px;"><div class="blockchain">Data Stored in Local blockchain</div></div>
 			<div style="position : absolute; left:1200px; top:575px;"><div class="database">Data Stored in Local DB</div></div>
         </div>

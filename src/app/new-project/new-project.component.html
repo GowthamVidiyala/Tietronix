@@ -9,7 +9,7 @@
 	<body>
 		<div class="box1">
 			<div style="position : relative; left:10px; top: 0px;"><a routerLink="/admindashboard" style=" text-decoration: none;"> {{org}}</a></div>
-			<div style="position : absolute; left:1100px; top: 25px;" [matMenuTriggerFor]="menu"> LocalAdmin({{username}})</div>
+			<div class="manager" style="position : absolute; left:1180px; top: 25px;" [matMenuTriggerFor]="menu"> <mat-icon style="transform: scale(1.5); position:absolute; left:-30px">account_circle</mat-icon> Manager({{username}})</div>
 			<div style="position : absolute; left:1260px; top: 25px;">
 				<mat-menu #menu="matMenu">
 					<button mat-menu-item>
@@ -31,18 +31,24 @@
 					</mat-menu>		  
 				</div>
 		</div>
-			<div class="box2" style="padding:200px">
+			<div class="box2 bluecolor" style="padding:180px">
 			<form action="createproject.html" action="GET">
-				Project Name<input type="text" style="width: 500px; margin-left:235px">
+				<b>
+				<div style="left: 330px; position: absolute;"><img src="assets/img/cloudserver.png" width="30" height="30" alt="cloudserver"></div>
+				<div style="position:absolute; left:400px">Project Name</div><input type="text" style="width: 250px; position:absolute; left:600px">
 				<br>
 				<br>
-				Project Description:<input type="text" style="width: 500px; margin-left:200px">
+				<br>
+				<div style="left: 330px; position: absolute;"><img src="assets/img/cloudserver.png" width="30" height="30" alt="cloudserver"></div>
+				<div style="position:absolute; left:400px">Project Description</div><input type="text" style="width: 250px; position:absolute; left:600px">
 				<br>
 				<br>
-				<button type="submit" style="margin-left:720px">Create Project</button>
-			</form>
+				<br>
+				<div style="left: 640px; position: absolute;"><img src="assets/img/cloudserver.png" width="30" height="30" alt="cloudserver"></div>
+				<button type="submit" class="bluebutton" style="position:absolute;left:720px">Create Project</button>
+			</b>			</form>
 			<div style="position : absolute; left:1070px; top:575px;"><div class="blockchain">Data Stored in Local blockchain</div></div>
-			<div style="position : absolute; left:1200px; top:575px;"><div class="database">Data Stored in Local DB</div></div>
+			<div style="position : absolute; left:1200px; top:575px;"><div class="database black">Data Stored in Local DB</div></div>
 		</div>
 	</body>	
 </html>

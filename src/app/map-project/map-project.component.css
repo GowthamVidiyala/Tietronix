@@ -97,6 +97,12 @@ font-weight: bold;
 font-size: 20px;
 }
 
+.hdr{
+  font-weight: bold;
+font-size: 20px;
+
+}
+
 .manager{
 font-weight: bold;
 font-size: 15px;
@@ -109,3 +115,18 @@ color : #00BFFF;
 .greencolor{
 color: #A8BB00; 
 }
+
+.black{
+  color : black;
+}
+.bluebutton{
+  border-radius: 10px 10px;
+  background-color: #00BFFF;
+  width: 150px;
+  height: 40px;
+  border: 2px solid  #00BFFF;
+  color: white; 
+  }
+
+
+  

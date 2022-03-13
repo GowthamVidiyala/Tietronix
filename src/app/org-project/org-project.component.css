@@ -26,7 +26,7 @@
     padding: 10px; 
     color: black;   
     }
-
+  
   .rectangleGreenBox{
     text-align:center;
     width: 250px;
@@ -35,7 +35,7 @@
     padding: 10px;
     color : black;
   }
-
+  
   .ProjectBox{
     margin-left: 30px;
     width: 1300px;
@@ -67,7 +67,7 @@
     color : black;		
     text-align : center;
   }
-
+  
   .blockchain {
     background-color: rgba(168,187,0,255);
     width: 130px;
@@ -85,27 +85,39 @@
     text-align : center;
     font-size: 11px;
   }
-
+  
   .icon-display {
     transform: scale(3);
- }
-
- a
- {
+  }
+  
+  a
+  {
   color : #00BFFF;
   font-weight: bold;
   font-size: 20px;
- }
-
- .manager{
+  }
+  
+  .manager{
   font-weight: bold;
   font-size: 15px;
- }
-
-.bluecolor{
+  }
+  
+  .bluecolor{
   color : #00BFFF;
-}
-
-.greencolor{
+  }
+  
+  .greencolor{
   color: #A8BB00; 
-}
+  }
+  
+  .black{
+    color : black;
+  }
+  .bluebutton{
+    border-radius: 10px 10px;
+    background-color: #00BFFF;
+    width: 130px;
+    height: 40px;
+    border: 2px solid  #00BFFF;
+    color: white; 
+    }

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { MyTestService } from '../my-test.service';
 
 @Component({
-  selector: 'app-addemployee',
-  templateUrl: './addemployee.component.html',
-  styleUrls: ['./addemployee.component.css']
+  selector: 'app-mapmodel',
+  templateUrl: './mapmodel.component.html',
+  styleUrls: ['./mapmodel.component.css']
 })
-export class AddemployeeComponent implements OnInit {
+export class MapmodelComponent implements OnInit {
 
   org : string = "";
   username: string = "";
@@ -14,7 +14,6 @@ export class AddemployeeComponent implements OnInit {
     this.org= ts.getInfo();
     this.username= ts.getUser();
   }
-  
   ngOnInit(): void {
   }
 

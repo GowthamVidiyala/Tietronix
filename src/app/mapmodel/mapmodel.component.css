@@ -1,5 +1,4 @@
 .box1 {
-    margin-top: 5px;
     margin-left: 30px;
     width: 1302px;
     height: 50px;
@@ -11,7 +10,7 @@
   .box2 {
     margin-left: 30px;
     width: 1302px;
-    height: 557px;
+    height: 562px;
     border: 2px solid black;
     padding: 15px;
     color : black;
@@ -26,7 +25,7 @@
     padding: 10px; 
     color: black;   
     }
-
+  
   .rectangleGreenBox{
     text-align:center;
     width: 250px;
@@ -35,7 +34,7 @@
     padding: 10px;
     color : black;
   }
-
+  
   .ProjectBox{
     margin-left: 30px;
     width: 1300px;
@@ -54,7 +53,7 @@
   }
   
   .MBSELeftBox{
-    padding: 100px;
+    padding: 150px;
     width: 700px;
     height: 500px;
     color : black;	
@@ -67,7 +66,7 @@
     color : black;		
     text-align : center;
   }
-
+  
   .blockchain {
     background-color: rgba(168,187,0,255);
     width: 130px;
@@ -84,28 +83,43 @@
     border: 1px solid rgba(16,191,252,255);
     text-align : center;
     font-size: 11px;
+    color : black;
   }
-
+  
   .icon-display {
     transform: scale(3);
- }
-
- a
- {
+  }
+  
+  a
+  {
   color : #00BFFF;
   font-weight: bold;
   font-size: 20px;
- }
-
- .manager{
+  }
+  
+  .hdr{
+  font-weight: bold;
+  font-size: 20px;
+  }
+  
+  .manager{
   font-weight: bold;
   font-size: 15px;
- }
-
-.bluecolor{
+  }
+  
+  .bluecolor{
   color : #00BFFF;
-}
-
-.greencolor{
+  }
+  
+  .greencolor{
   color: #A8BB00; 
-}
+  }
+  
+  .greenbutton{
+    border-radius: 10px 10px;
+    background-color: #A8BB00;
+    width: 150px;
+    height: 40px;
+    border: 2px solid  #A8BB00;
+    color: white; 
+    }

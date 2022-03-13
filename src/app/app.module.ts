@@ -21,6 +21,9 @@ import { MyTestService } from './my-test.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
+import { MapmodelComponent } from './mapmodel/mapmodel.component';
+import { MapProjectComponent } from './map-project/map-project.component';
+import { OrgProjectComponent } from './org-project/org-project.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import {MatIconModule} from '@angular/material/icon';
     NewEmployeeComponent,
     NewProjectComponent,
     AddemployeeComponent,
-    EmployeelistComponent
+    EmployeelistComponent,
+    MapmodelComponent,
+    MapProjectComponent,
+    OrgProjectComponent
   ],
   imports: [
     BrowserModule,

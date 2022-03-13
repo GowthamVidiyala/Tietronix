@@ -14,6 +14,9 @@ import { NewProjectComponent } from './new-project/new-project.component';
 import { NewEmployeeComponent } from './new-employee/new-employee.component';
 import { AddemployeeComponent } from './addemployee/addemployee.component';
 import { EmployeelistComponent } from './employeelist/employeelist.component';
+import { MapmodelComponent } from './mapmodel/mapmodel.component';
+import { MapProjectComponent } from './map-project/map-project.component';
+import { OrgProjectComponent } from './org-project/org-project.component';
 
 const routes: Routes = [
   {path : '', component : LoginComponent}, 
@@ -25,8 +28,11 @@ const routes: Routes = [
   {path : 'MBSEVarient', component : MbseModelVarientComponent}, 
   {path : 'MBSEModel', component : MbseModelComponent}, 
   {path : 'MBSEModelList', component : MbseModelListComponent},
+  {path : 'MapModel', component : MapmodelComponent}, 
   {path : 'newproject', component : NewProjectComponent}, 
   {path : 'addemployee', component : AddemployeeComponent}, 
+  {path : 'mapproject', component : MapProjectComponent}, 
+  {path : 'orgproject', component : OrgProjectComponent}, 
   {path : 'newemployee', component : NewEmployeeComponent}, 
   {path : 'employeelist', component : EmployeelistComponent} 
 ];
